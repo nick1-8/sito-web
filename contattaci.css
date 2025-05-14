@@ -127,6 +127,15 @@ label {
 
 }
 
+ul {
+    color: white;
+}
+
+.social {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
 .copyright {
     flex: 1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
