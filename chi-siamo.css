@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* assicura che il contenuto riempia lo schermo */
+    margin: 0;
+    z-index: 1;
+}
+
+.background-img {
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    background-image: url(SfondoChi-siamo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+
+
+.paragrafo1 {
+    padding-left: 10px;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.scroll-box {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    gap: 10;
+    padding-left: 40px;
+}
+
+.navElenco {
+    padding: 9px;
+    background-color: black;
+}
+
+.elenco {
+    text-align: center;
+}
+
+.elenco li{
+    padding-top: 25px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.dipendente {
+    display: inline-block;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-right: 30px;
+    /* padding-left: 30px; */
+}
+
+.nomeDipendente {
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fotoDipendenti {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.titoloTecnologie {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    margin-right: 1500px;
+    border-radius: 10px;
+}
+
+.tecnologie {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 1500px;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6%;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}

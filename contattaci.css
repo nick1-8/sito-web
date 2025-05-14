@@ -1,0 +1,134 @@
+.background-img{
+    margin-top: 72px;
+    position: absolute;
+    height: 87%; 
+    width: 100%;
+    background-image: url(sfondoContattaci.png);
+    background-repeat: round;
+    z-index: -1;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    z-index: 1;
+}
+
+main {
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 40px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.contenuto {
+    flex: 1;
+    z-index: 1;
+}
+
+.list{
+    margin: 0;
+    background-color: rgb(0, 0, 0);  /*vecchio colore #8097e2*/
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.list li {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    display: inline;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.link {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.social {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact p {
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#messaggio {
+    resize: none;
+
+}
+
+.copyright {
+    flex: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 25;
+}

@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* assicura che il contenuto riempia lo schermo */
+    margin: 0;
+}
+
+.background-img {
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    background-image: url(sfondoIndex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+ul {
+    background-color: black;  /*vecchio colore #8097e2*/
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+
+ul li {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    display: inline;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.link {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+button {
+    margin-left: 880px;
+    margin-right: 880px;
+    border-color: black;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bottone {
+    text-decoration: none;
+    color: black;
+}
+
+button:active .bottone{
+    color: white;
+}
+
+button:active {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+h1 {
+    color: white;
+    border-radius: 10px;
+    margin-right: 475px;
+    margin-left: 475px;
+    background-color: #0000008c;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 400px;
+    
+}
+
+.contenuto {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+    color: white;
+    background-color: #0000008c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.copyright {
+    flex: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 0;
+    padding: 25;
+}
